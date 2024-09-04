@@ -1,0 +1,82 @@
+.bottomSection{
+    margin-top:50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom:80px;
+}
+.qs-heading{
+    height:43px;
+    font-family: Poppins;
+    font-size:30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color:#192f60;
+}
+.qs-subheading{
+    height:25px;
+    font-family: Poppins;
+    font-size:18px;
+    font-weight:normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align:left;
+    color:#8c96ab;
+    width:100%;
+}
+.qs-boxes-container{
+    margin-top:30px;
+    width: 100%;
+}
+.qs-box{
+    display: inline-block;
+    width:33%;
+}
+.qs-box-contents{
+    height:160px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0/16%);
+    background-color: #fff;
+    margin-right:30px;
+    margin-bottom:30px;
+    position:relative;
+}
+.qs-image{
+    width:160px;
+    height:160px;
+    margin:0 29px 0 0;
+}
+.qs-item-heading{
+    position:absolute;
+    top: 0px;
+    left: 190px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color:#192f60;
+}
+.qs-item-description{
+    position:absolute;
+    top:50px;
+    left:190px;
+    max-width: 190px;
+    font-family:Poppins;
+    font-size:14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing:normal;
+    text-align:left;
+    color:#8c96ab;
+
+}

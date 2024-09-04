@@ -1,0 +1,44 @@
+.header{
+    position: relative;
+    background-color: #eb2929;
+    height:100px;
+    padding:0px;
+    margin:0;
+}
+.header-logo{
+    position:absolute;
+    top:12px;
+    left:20px;
+    font-size: 36px;
+    font-weight: 700;
+    color:#eb2929;
+    background-color: #fff;
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px;
+    margin-left: 20px;
+}
+.user-account{
+    position: absolute;
+    display: flex;
+    right:20px;
+    top:25px;
+    gap:50px;
+}
+
+.login{
+    font-size: normal;
+    font-family: Poppins;
+    font-weight: 700;
+    padding:10px;
+    color: #fff;
+}
+.signup{
+    font-size: normal;
+    font-family: Poppins;
+    font-weight: 700;
+    border:2px solid #fff;
+    padding: 10px;
+}

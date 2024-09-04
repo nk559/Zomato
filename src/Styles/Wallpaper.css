@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.homeImage {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.topSection {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    text-align: center;
+    z-index: 1; /* Ensure the content appears over the image */
+    color: #fff;
+}
+
+.logo {
+    width: 99px;
+    height: 99px;
+    margin: auto;
+    padding: 0;
+    border: solid 1px #707070;
+    background-color: #fff;
+    border-radius: 50%;
+    font-family: Poppins, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 99px;
+    color: #eb2929;
+}
+
+.headerText {
+    height: 51px;
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.53;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.searchingOptions {
+    margin-top: 30px;
+}
+
+.locationBox {
+    width: 245px;
+    height: 45px;
+    margin: 0 21px 0 0;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+
+.searchBox {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #707070;
+}
+
+.searchInput {
+    width: 477px;
+    height: 45px;
+    margin: 0 0 0 21px;
+    padding: 10px 10px 10px 40px;
+    background-color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+
+.user-account {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+    z-index: 2; /* Ensure the account buttons appear over the image */
+}
+
+.user-account .login, .user-account .signup {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
